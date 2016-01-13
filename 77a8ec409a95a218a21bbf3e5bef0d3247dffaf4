@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_63f9194d",
+        "filename": "python-magnumclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003941
+      },
+      "writtenOn": "2016-01-13T12:59:59Z",
+      "side": 1,
+      "message": "Actually, the python3 requirements are there in Rawhide. We could do %if 0%{?fedora} \u003e\u003d 24 to cover both cases.",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "77a8ec409a95a218a21bbf3e5bef0d3247dffaf4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
