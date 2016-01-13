@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_c36d6506",
+        "filename": "python-magnumclient.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003941
+      },
+      "writtenOn": "2016-01-13T13:13:32Z",
+      "side": 1,
+      "message": "Oops, this should be the other way around :). If Fedora is \u003e\u003d24, then with_python3 should be 1. Sorry I didn\u0027t make it clear.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "dc2ccd4dbe418414c2fd9975e8d4ef7187234bd5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
