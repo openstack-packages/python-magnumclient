@@ -155,7 +155,7 @@ rm -rf html/.{doctrees,buildinfo}
 
 %install
 
-%if 0%{with_python3}
+%if 0%{?with_python3}
 %py3_install
 %if %{default_python} >= 3
 mv %{buildroot}%{_bindir}/magnum ./magnum.py3
